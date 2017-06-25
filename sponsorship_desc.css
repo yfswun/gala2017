@@ -1,0 +1,84 @@
+/*** Gala ***/
+
+/* Sponsorship level description */
+
+.sponsors .x-accordion-inner {
+	margin-bottom:5px;
+}
+
+.sponsors .offers {
+	margin:5px;
+}
+
+.sponsors .offer {
+	list-style:none;
+	padding:3px 0;
+	margin:0;
+}
+.sponsors .offer:first-child {
+	padding-top:0;
+}
+.sponsors .offer:last-child {
+	padding-bottom:0;
+}
+
+.sponsors .offer span {
+	display:inline-block;
+	color:black;
+}
+ 
+.sponsors .offer:hover {
+	background:#efefef;
+}
+
+.sponsors .offer {
+	vertical-align:top;
+	border-bottom:1px solid lightgray;
+}
+
+.sponsors .offer_name {
+	display:inline-block;
+	font-size:1em;
+	font-weight:bold;
+}
+
+.sub-menu .offer_desc {
+	display:inline-block;
+	font-size:0.9em;
+	color:gray;
+}
+
+
+/* Media queries */
+
+/* phones */
+@media only screen and (max-width:600px) {
+	.sponsors .offer_name {
+		width:100%;
+	}
+	.sponsors .offer_desc {
+		width:100%;
+	}
+}
+
+/* tablets */
+@media only screen and (min-width:601px) and (max-width:800px) {
+	.sponsors .offer_name {
+		width:15%;
+		vertical-align:top;
+	}
+	.sponsors .offer_desc {
+		width:85%;
+	}
+}
+
+/* laptops & PCs */
+@media only screen and (min-width:801px) {
+	.sponsors .offer_name {
+		width:15%;
+		vertical-align:top;
+	}
+	.sponsors .offer_desc {
+		width:85%;
+	}
+}
